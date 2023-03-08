@@ -1,0 +1,34 @@
+.profile-image {
+    position:relative;
+    background-image: url('/assets/profile_image_component/hans-jurgen-mager-Ec_ygZTIv_0-unsplash.jpg');
+    background-color: #cccccc;
+    background-size: inherit;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.edit-circle{
+    position: relative;
+    border: solid black 2px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.profile-image:hover {
+    cursor: pointer;
+    border: solid black 2px;
+    #edit-image-icon {
+        display: inline;
+    }
+}
+
+.profile-image #edit-image-icon {
+    display: none;
+    height: 25px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
