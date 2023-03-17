@@ -1,6 +1,6 @@
 <div id="profile-image" class="profile-image" 
-(mouseover)="isOnProfileSite? onMouseOver($event) : onMouseOver($event)"
-(mouseout)="isOnProfileSite? onMouseOut($event) : onMouseOut($event)" 
+(mouseover)="onMouseOver($event)"
+(mouseout)="onMouseOut($event)" 
 (dragover)="allowDrop($event)"
 (drop)="onDrop($event)"
 (click)="isOnProfileSite? editImagePosition() : setCirclePositionOnClick($event)"
